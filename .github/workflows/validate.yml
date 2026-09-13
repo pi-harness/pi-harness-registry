@@ -19,8 +19,7 @@ jobs:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v5
         with: {node-version: 22}
-      - run: npx --yes ajv-cli@5 validate -s schema.json -d plugins.json --spec=draft2020
-      - run: node validate.mjs
+      - run: npm run validate
       - name: Detect npm metadata drift
         run: |
           cp plugins.json /tmp/plugins.before.json

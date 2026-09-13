@@ -3,8 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "validate": "node validate.mjs",
-    "sync:npm": "node scripts/sync-npm.mjs"
+    "validate": "npm run validate:schema && node validate.mjs",
+    "sync:npm": "node scripts/sync-npm.mjs",
+    "validate:schema": "ajv validate -s schema.json -d plugins.json --spec=draft2020"
   },
   "engines": {
     "node": ">=22"
