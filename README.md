@@ -25,3 +25,17 @@ Only add a plugin after its npm publication succeeds. Copy the exact `latest` ve
 ## Contributing
 
 Read [`AGENTS.md`](AGENTS.md), [`SCHEMA.md`](SCHEMA.md), and [`UPDATING.md`](UPDATING.md) before editing. Registry changes should be metadata-only and include the corresponding plugin release or correction rationale.
+
+## Minimal consumer example
+
+```js
+const catalog = await fetch(
+  "https://raw.githubusercontent.com/pi-harness/pi-harness-registry/main/plugins.json",
+).then((response) => response.json());
+
+for (const plugin of catalog.plugins) {
+  console.log(`${plugin.name}@${plugin.version}`);
+}
+```
+
+Treat the catalog as untrusted metadata: validate the schema, resolve packages through npm, and pin versions in production.
