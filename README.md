@@ -1,5 +1,5 @@
 # pi-harness-registry
 
-Plugin registry and metadata for the Pi Harness ecosystem.
+The discoverable plugin catalog for Pi Harness.
 
-This repository tracks discoverable plugins, compatibility ranges, installation metadata, and curated listings. Runtime code remains in [pi-harness](https://github.com/pi-harness/pi-harness).
+`plugins.json` is the registry index. Entries include the package name, source path, version, and description. New entries should include a compatibility range and repository URL as the registry schema evolves.
