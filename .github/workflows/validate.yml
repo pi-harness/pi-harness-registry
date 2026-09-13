@@ -7,5 +7,5 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with: {node-version: 22}
-      - run: npx ajv validate -s schema.json -d plugins.json --spec=draft2020
+      - run: npx --yes ajv-cli@5 validate -s schema.json -d plugins.json --spec=draft2020
       - run: node validate.mjs # "const x=require('./plugins.json'); if(x.schemaVersion!==1||!Array.isArray(x.plugins)) process.exit(1); console.log('validated '+x.plugins.length+' plugins')"
