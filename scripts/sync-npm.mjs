@@ -7,6 +7,9 @@ for (const entry of catalog.plugins) {
   const latest = metadata['dist-tags']?.latest;
   if (!latest) throw new Error(`${entry.name}: no latest dist-tag`);
   entry.version = latest;
+  entry.description = metadata.description ?? entry.description;
+  const repository = metadata.repository?.url;
+  if (repository) entry.repository = repository.replace(/^git\+/, '').replace(/\.git$/, '');
 }
 catalog.plugins.sort((a, b) => a.name.localeCompare(b.name));
 await writeFile('plugins.json', JSON.stringify(catalog, null, 2) + '\n');
