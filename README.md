@@ -6,7 +6,7 @@ The public catalog of published Pi Harness plugins. This repository contains met
 
 ## Catalog
 
-The canonical index is [`plugins.json`](plugins.json). It records each package name, published npm version, source repository, source path, and description. The current schema is documented in [`SCHEMA.md`](SCHEMA.md) and machine-validated by [`schema.json`](schema.json).
+The canonical index is [`plugins.json`](plugins.json). It records each package name, published npm version, source repository, source path, and description. The current schema is documented in [`SCHEMA.md`](SCHEMA.md). See [`examples/plugin-entry.json`](examples/plugin-entry.json) for a complete entry example. and machine-validated by [`schema.json`](schema.json).
 
 ## Consumers
 

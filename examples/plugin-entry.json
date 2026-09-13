@@ -1,0 +1,7 @@
+{
+  "name": "@pi-harness/plugin-example",
+  "version": "0.1.0",
+  "repository": "https://github.com/pi-harness/pi-harness-plugins",
+  "path": "packages/plugins/example",
+  "description": "Example catalog entry"
+}
