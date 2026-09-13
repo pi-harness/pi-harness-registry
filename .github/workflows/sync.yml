@@ -1,0 +1,25 @@
+name: Sync npm catalog
+on:
+  schedule:
+    - cron: "27 7 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v5
+        with: {node-version: 22, cache: npm}
+      - run: npm ci --ignore-scripts
+      - run: npm run sync:npm
+      - uses: peter-evans/create-pull-request@v8
+        with:
+          commit-message: "chore: sync npm catalog"
+          title: "chore: sync npm catalog"
+          body: "Automated refresh of npm versions and metadata."
+          branch: automation/sync-npm-catalog
+          delete-branch: true
