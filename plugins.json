@@ -4,525 +4,525 @@
     {
       "name": "@pi-harness/plugin-agent-teams",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/agent-teams",
       "description": "Maintain a bounded, session-local collaboration ledger of named roles, dependency-aware tasks, and mailbox notes without spawning agents or sending external messages."
     },
     {
       "name": "@pi-harness/plugin-anchored-standard",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/anchored-standard",
       "description": "Audit agent trajectories against an explicit tool-call allowlist and flag activity outside the anchored run."
     },
     {
       "name": "@pi-harness/plugin-annotation",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/annotation",
       "description": "Capture bounded selections and notes from the conversation for later agent context."
     },
     {
       "name": "@pi-harness/plugin-archify",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/archify",
       "description": "Build a bounded, read-only architecture map from workspace components and package dependencies."
     },
     {
       "name": "@pi-harness/plugin-at-file",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/at-file",
       "description": "Attach a bounded 256 KiB strict UTF-8 workspace file using canonical workspace path confinement and no-follow regular-file reads, framing it as offline, read-only, untrusted model context with closing-tag neutralization and cancellable sequential executio"
     },
     {
       "name": "@pi-harness/plugin-auto-mode",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/auto-mode",
       "description": "Execute argv commands under a safe policy that blocks shell wrappers and requires confirmation for risky operations."
     },
     {
       "name": "@pi-harness/plugin-better-sidebar",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/better-sidebar",
       "description": "Show a compact workspace, Git, and session overview beside the conversation without modifying files."
     },
     {
       "name": "@pi-harness/plugin-browser-fetch",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/browser-fetch",
       "description": "Fetch public HTTP and HTTPS pages as bounded text with descriptor-safe inputs, DNS pinning, per-redirect private-network validation, textual MIME enforcement, cancellation, a whole-request timeout, and validated fail-closed panel reporting."
     },
     {
       "name": "@pi-harness/plugin-browser-session",
       "version": "0.1.33",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/browser-session",
       "description": "Control a loopback-only Chrome DevTools session with descriptor-safe commands, bounded discovery, cancellable operations, screenshot metadata protection, and validated fail-closed panel previews."
     },
     {
       "name": "@pi-harness/plugin-canvas-draw",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/canvas-draw",
       "description": "Generate validated, bounded Mermaid flowchart source from structured nodes and edges in the workspace UI."
     },
     {
       "name": "@pi-harness/plugin-change-verifier",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/change-verifier",
       "description": "Combine project tests and Git change review into one explicit verification gate before handoff."
     },
     {
       "name": "@pi-harness/plugin-cleaner",
       "version": "0.1.29",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/cleaner",
       "description": "Strict descriptor-safe configuration and parameters, display-safe bounded Pi Harness Git capsule inventory, removal with explicit confirmation and retention controls, symlink and replacement defenses, cancellable serialization, and a fail-closed normalize"
     },
     {
       "name": "@pi-harness/plugin-cli-notifier",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/cli-notifier",
       "description": "Send local desktop notifications when an agent turn completes, fails, or is aborted, and when context compaction fails."
     },
     {
       "name": "@pi-harness/plugin-code2skill",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/code2skill",
       "description": "Package selected workspace source files into a bounded local Pi skill with a generated SKILL.md manifest and preserved references."
     },
     {
       "name": "@pi-harness/plugin-colleague-skill",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/colleague-skill",
       "description": "Create durable, structured handoff packets for another role without hidden agents or external message delivery."
     },
     {
       "name": "@pi-harness/plugin-context",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/context",
       "description": "Inspect context usage and descriptor-safe bounded message composition with cached active-session lifecycle counters and a fixed-limit normalized browser panel."
     },
     {
       "name": "@pi-harness/plugin-context-doctor",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/context-doctor",
       "description": "Descriptor-safe bounded context audits detect pressure, oversized or uninspectable messages, and tool errors. Compaction requests are queued until the agent has settled; confirmed model-backed compaction may incur cost and provides cancellable waits with "
     },
     {
       "name": "@pi-harness/plugin-cost-meter",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/cost-meter",
       "description": "Track runtime-reported costs as UTC daily increments in a bounded local ledger, with session snapshots and optional daily budget monitoring; no model prices are guessed."
     },
     {
       "name": "@pi-harness/plugin-dependency-checker",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/dependency-checker",
       "description": "Run a bounded, offline, read-only check of workspace package.json and requirements*.txt manifests for local package presence, duplicate declaration consistency, unresolved constraints, and unsupported Python directives."
     },
     {
       "name": "@pi-harness/plugin-docker-sandbox",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/docker-sandbox",
       "description": "Run descriptor-safe argv commands with local-only Docker images, no container network, a read-only workspace by default, fixed CPU, memory, and PID limits, sanitized output, strict panel reporting, and cancellation cleanup."
     },
     {
       "name": "@pi-harness/plugin-fail-logger",
       "version": "0.1.29",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/fail-logger",
       "description": "Aggregate bounded extension, Agent, and non-aborted compaction failures through descriptor-safe event inspection, safe diagnostic summaries, and occurrence counts without retaining full payloads."
     },
     {
       "name": "@pi-harness/plugin-genui",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/genui",
       "description": "Render bounded structured cards with text, badge, and decimal progress blocks while displaying HTML and scripts as plain text."
     },
     {
       "name": "@pi-harness/plugin-git-time-capsule",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/git-time-capsule",
       "description": "Capture the current unstaged tracked Git diff as a byte-exact, validated undo capsule without external diff or textconv helpers, then reverse-apply it only after explicit confirmation."
     },
     {
       "name": "@pi-harness/plugin-graph-memory",
       "version": "0.1.33",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/graph-memory",
       "description": "Store bounded typed task, skill, and event nodes with validated directed relations, atomic locked persistence, and inspectable cross-session search."
     },
     {
       "name": "@pi-harness/plugin-history-compressor",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/history-compressor",
       "description": "Compact the current Pi session automatically when context usage approaches a configured threshold."
     },
     {
       "name": "@pi-harness/plugin-hol-guard",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/hol-guard",
       "description": "Audit tool arguments and preflight text for destructive commands, sensitive paths, credentials, and remote exfiltration. Advisory only: reports risk, does not block execution."
     },
     {
       "name": "@pi-harness/plugin-i18n-pair",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/i18n-pair",
       "description": "Strict read-only comparison of bounded JSON locale files from no-follow workspace paths, with collision-safe missing and extra keys, stable failures, cancellation, and validated panel status."
     },
     {
       "name": "@pi-harness/plugin-image-compressor",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/image-compressor",
       "description": "Create bounded image copies for model context while preserving the original file and reporting saved bytes."
     },
     {
       "name": "@pi-harness/plugin-llm-verifier",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/llm-verifier",
       "description": "Ask a configured verifier model to judge a claim against bounded, untrusted evidence."
     },
     {
       "name": "@pi-harness/plugin-mcp-client",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/mcp-client",
       "description": "Connect to direct-argv MCP stdio servers with bounded pagination and protocol validation, tool, resource, and prompt bridging, cancellable queued requests, and lifecycle-owned process cleanup."
     },
     {
       "name": "@pi-harness/plugin-mcp-panel",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/mcp-panel",
       "description": "Inspect MCP server health and tools, preview profile patches, and apply changes only with an explicit confirmation and backup."
     },
     {
       "name": "@pi-harness/plugin-memory",
       "version": "0.1.33",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/memory",
       "description": "Persist bounded cross-session notes with explicit recall and update operations."
     },
     {
       "name": "@pi-harness/plugin-mirage-bridge",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/mirage-bridge",
       "description": "Connect Pi Harness to the official Mirage virtual-terminal CLI without adding a second host shell."
     },
     {
       "name": "@pi-harness/plugin-mock-server",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/mock-server",
       "description": "Start a local, bounded HTTP mock server from explicit routes for integration testing without external services."
     },
     {
       "name": "@pi-harness/plugin-modlens",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/modlens",
       "description": "Send bounded workspace images to native vision models or return schema-validated evidence from the bundled ModLens engine for text-only models."
     },
     {
       "name": "@pi-harness/plugin-module-search",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/module-search",
       "description": "Find imports, exports, and declared symbols in bounded workspace source files without modifying them."
     },
     {
       "name": "@pi-harness/plugin-obsidian-sync",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/obsidian-sync",
       "description": "Write explicitly requested session notes to a bounded Obsidian vault path without reading unrelated vault files."
     },
     {
       "name": "@pi-harness/plugin-openpets",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/openpets",
       "description": "Keep a bounded durable companion state from validated recent session entries without retaining message contents, with descriptor-safe actions and explicit persistence health."
     },
     {
       "name": "@pi-harness/plugin-plan-execute",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/plan-execute",
       "description": "Track an explicit multi-step execution plan with progress, dependencies, and completion state in the current session."
     },
     {
       "name": "@pi-harness/plugin-plugin-check",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/plugin-check",
       "description": "Inspect installed plugin manifests and report unsafe, malformed, or incompatible extension metadata before loading it."
     },
     {
       "name": "@pi-harness/plugin-plugin-dev",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/plugin-dev",
       "description": "Defer Pi session resource reloads until the agent is settled, enforce a single active reload with bounded status, and expose the operation only for trusted local development."
     },
     {
       "name": "@pi-harness/plugin-plugin-finder",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/plugin-finder",
       "description": "Search a configured npm-compatible registry for Pi plugins with bounded queries and explicit installation handoff."
     },
     {
       "name": "@pi-harness/plugin-plugin-radar",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/plugin-radar",
       "description": "Discover public Pi Harness repositories on GitHub, sorted by stars."
     },
     {
       "name": "@pi-harness/plugin-plugin-stars",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/plugin-stars",
       "description": "Search a curated raw.githubusercontent.com plugin snapshot through descriptor-safe inputs, strict bounded validation, a cancellable lifecycle, and fail-closed panel reporting."
     },
     {
       "name": "@pi-harness/plugin-prompt-guard",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/prompt-guard",
       "description": "Detect prompt override, secret exfiltration, remote payloads, and hidden-instruction indicators without retaining input text."
     },
     {
       "name": "@pi-harness/plugin-prompt-library",
       "version": "0.1.33",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/prompt-library",
       "description": "Save, search, update, and delete reusable prompt templates in the current Pi session."
     },
     {
       "name": "@pi-harness/plugin-readme-gen",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/readme-gen",
       "description": "Generate README reports from strictly bounded manifest metadata and a descriptor-safe loader inventory with Markdown-safe rendering, plus confirmed no-clobber atomic writes, explicit overwrite confirmation, and cancellable sequential execution."
     },
     {
       "name": "@pi-harness/plugin-recall-unread",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/recall-unread",
       "description": "Read-only bounded discovery with strict UTF-8 session reads finds current workspace conversations ending in an unanswered user message, uses cached startup inventory, and rescans only on explicit tool calls."
     },
     {
       "name": "@pi-harness/plugin-reverse-skill",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/reverse-skill",
       "description": "Inspect untrusted Skill text and inject it only through an explicit bounded data boundary."
     },
     {
       "name": "@pi-harness/plugin-reviewer-bot",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/reviewer-bot",
       "description": "Review tracked Git changes against HEAD for whitespace, likely credentials, and TODO/FIXME markers without executing diff helpers."
     },
     {
       "name": "@pi-harness/plugin-runtime-doctor",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/runtime-doctor",
       "description": "Audit workspace, agent directory, model, runtime, MCP servers, and extension errors in one read-only report."
     },
     {
       "name": "@pi-harness/plugin-secure-audit",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/secure-audit",
       "description": "Read-only workspace scan for exposed credentials and dangerous shell commands with value-redacted findings."
     },
     {
       "name": "@pi-harness/plugin-session-bookmarks",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/session-bookmarks",
       "description": "Persist labels for important native Pi session entries without changing the underlying transcript."
     },
     {
       "name": "@pi-harness/plugin-session-bridge",
       "version": "0.1.33",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/session-bridge",
       "description": "Preview and export handoffs, then require confirmed import of a strictly validated, bounded package into the active LLM context with duplicate protection."
     },
     {
       "name": "@pi-harness/plugin-session-compare",
       "version": "0.1.35",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/session-compare",
       "description": "Compare two persisted Pi sessions by message role and text without modifying either session file."
     },
     {
       "name": "@pi-harness/plugin-session-export",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/session-export",
       "description": "Export the current Pi conversation to a bounded Markdown file inside the workspace without changing session history."
     },
     {
       "name": "@pi-harness/plugin-session-insights",
       "version": "0.1.33",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/session-insights",
       "description": "Publish descriptor-safe validated cached session statistics and run only confirmed settled-session compaction with explicit model usage and cost guidance plus cancellable lifecycle handling."
     },
     {
       "name": "@pi-harness/plugin-session-search",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/session-search",
       "description": "Search persisted Pi JSONL sessions for matching user or assistant text without modifying session files."
     },
     {
       "name": "@pi-harness/plugin-skill-catalog",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/skill-catalog",
       "description": "List loaded Agent Skills and safely inspect one through a bounded untrusted-data boundary, plus managed MCP status."
     },
     {
       "name": "@pi-harness/plugin-skill-guard",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/skill-guard",
       "description": "Audit each loaded Skill entry Markdown file with bounded heuristics for instruction override, secret exfiltration, destructive commands, and obfuscation; it reports risk labels and does not disable loaded Skills."
     },
     {
       "name": "@pi-harness/plugin-sql-lens",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/sql-lens",
       "description": "Inspect workspace-contained SQLite databases with strict descriptor-safe inputs, a single read-only statement, bounded results, symlink and replacement checks, timed worker execution, cancellation, and fail-closed panel reporting."
     },
     {
       "name": "@pi-harness/plugin-synapse",
       "version": "0.1.32",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/synapse",
       "description": "Visualize session relationships and linked work items without changing the transcript."
     },
     {
       "name": "@pi-harness/plugin-tab-manager",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/tab-manager",
       "description": "Organize active Pi sessions into named tabs and switch between them without losing session identity."
     },
     {
       "name": "@pi-harness/plugin-taskboard",
       "version": "0.1.33",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/taskboard",
       "description": "Track agent tasks, statuses, and dependencies in a durable project board."
     },
     {
       "name": "@pi-harness/plugin-telemetry-blocker",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/telemetry-blocker",
       "description": "Block configured outbound telemetry destinations and report blocked attempts without collecting payload contents."
     },
     {
       "name": "@pi-harness/plugin-test-harness",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/test-harness",
       "description": "Run five fixed npm script names from a trusted workspace, reporting real status with a sanitized 12 KiB UTF-8-safe untrusted output tail, a bounded configurable timeout, and cancellable process-tree cleanup."
     },
     {
       "name": "@pi-harness/plugin-theme-studio",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/theme-studio",
       "description": "Apply bounded Light, Midnight, Paper, and High Contrast presets to the Pi Harness web surface."
     },
     {
       "name": "@pi-harness/plugin-token-guard",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/token-guard",
       "description": "Use descriptor-safe monitoring to issue at most one abort request per run when a context percentage or SDK-reported run-token budget is reached, with bounded errors and a cached normalized panel."
     },
     {
       "name": "@pi-harness/plugin-turn-rewind",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/turn-rewind",
       "description": "Scans a bounded current branch for user turns, supports queued serialized cancellable rewinds after the agent settles, and navigates the native session tree while preserving abandoned branches."
     },
     {
       "name": "@pi-harness/plugin-undo-savepoint",
       "version": "0.1.33",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/undo-savepoint",
       "description": "Create inspectable savepoints before agent changes so the workspace can be restored safely."
     },
     {
       "name": "@pi-harness/plugin-vision-toolkit",
       "version": "0.1.30",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/vision-toolkit",
       "description": "Catalog signature-verified PNG, JPEG, GIF, and WebP metadata with bounded header reads, cancellable workspace traversal, explicit partial results, and a local-only normalized panel."
     },
     {
       "name": "@pi-harness/plugin-web-research",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/web-research",
       "description": "Search the public web through a configurable provider and return bounded, cited source evidence."
     },
     {
       "name": "@pi-harness/plugin-workspace-navigator",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/workspace-navigator",
       "description": "Show a bounded workspace tree and read-only Git status for a high-signal coding sidebar."
     },
     {
       "name": "@pi-harness/plugin-workspace-search",
       "version": "0.1.33",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/workspace-search",
       "description": "Search bounded text files in the active workspace with ignored directories and binary content excluded."
     },
     {
       "name": "@pi-harness/plugin-yaml-validator",
       "version": "0.1.31",
-      "repository": "https://github.com/pi-harness/pi-harness-plugins",
+      "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/yaml-validator",
       "description": "Validate workspace-contained UTF-8 multi-document YAML through bounded, cancellable reads and line-aware diagnostics."
     }
