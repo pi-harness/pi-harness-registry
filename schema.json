@@ -1,1 +1,44 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","required":["schemaVersion","plugins"],"properties":{"schemaVersion":{"const":1},"plugins":{"type":"array","items":{"type":"object","required":["name","version","repository"],"properties":{"name":{"type":"string","pattern":"^@pi-harness/plugin-[a-z0-9-]+$"},"version":{"type":"string"},"repository":{"type":"string"},"path":{"type":"string"},"description":{"type":"string"}},"additionalProperties":false}}},"additionalProperties":false}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "plugins"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "version",
+          "repository"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^@pi-harness/plugin-[a-z0-9-]+$"
+          },
+          "version": {
+            "type": "string"
+          },
+          "repository": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
