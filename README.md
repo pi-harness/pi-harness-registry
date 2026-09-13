@@ -13,10 +13,10 @@ The canonical index is [`plugins.json`](plugins.json). It records each package n
 A client can fetch the raw catalog from:
 
 ```text
-https://raw.githubusercontent.com/pi-harness/pi-harness/main/plugins.json
+https://raw.githubusercontent.com/pi-harness/pi-harness-registry/main/plugins.json
 ```
 
-For a stable pinned revision, use the `pi-harness-registry` commit URL. Clients should validate `schemaVersion`, accept unknown future fields, and treat npm metadata as the source of truth for installation.
+For a stable pinned revision, use the `pi-harness-registry` commit URL. To install an entry, pass its `name` and `version` to npm, for example `npm install --save-exact @pi-harness/plugin-browser-fetch@0.1.32`. Clients should validate `schemaVersion`, accept unknown future fields, and treat npm metadata as the source of truth for installation.
 
 ## Updating entries
 
