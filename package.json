@@ -17,5 +17,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/pi-harness/pi-harness-registry.git"
+  },
+  "overrides": {
+    "fast-json-patch": "3.1.1"
   }
 }
