@@ -59,7 +59,7 @@
     },
     {
       "name": "@pi-harness/plugin-browser-session",
-      "version": "0.1.36",
+      "version": "0.1.37",
       "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/browser-session",
       "description": "Control a loopback-only Chrome DevTools session with descriptor-safe commands, bounded discovery, cancellable operations, screenshot metadata protection, and validated fail-closed panel previews."
@@ -136,7 +136,7 @@
     },
     {
       "name": "@pi-harness/plugin-docker-sandbox",
-      "version": "0.1.35",
+      "version": "0.1.36",
       "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/docker-sandbox",
       "description": "Run descriptor-safe argv commands with local-only Docker images, no container network, a read-only workspace by default, fixed CPU, memory, and PID limits, sanitized output, strict panel reporting, and cancellation cleanup."
@@ -157,7 +157,7 @@
     },
     {
       "name": "@pi-harness/plugin-git-time-capsule",
-      "version": "0.1.35",
+      "version": "0.1.36",
       "repository": "https://github.com/pi-harness/pi-harness",
       "path": "packages/plugins/git-time-capsule",
       "description": "Capture the current unstaged tracked Git diff as a byte-exact, validated undo capsule without external diff or textconv helpers, then reverse-apply it only after explicit confirmation."
